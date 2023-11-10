@@ -1,0 +1,34 @@
+/* Style for the book container */
+#books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style for each book element */
+#books div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style for book titles */
+#books div h2 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for book details */
+#books div p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Style for the characters section */
+#books div p:last-child {
+  margin-bottom: 0;
+}
